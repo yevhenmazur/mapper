@@ -5,12 +5,12 @@
         <projected_crs id="Local coordinates"/>
     </georeferencing>
     <colors count="35">
-        <color priority="0" name="Purple over Black" c="0" m="1" y="0" k="0" opacity="1">
+        <color priority="0" name="Purple over Black" c="0.35" m="0.85" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
                 <namedcolor>PURPLE</namedcolor>
             </spotcolors>
             <cmyk method="custom"/>
-            <rgb method="cmyk" r="1" g="0" b="1"/>
+            <rgb method="cmyk" r="0.65" g="0.15" b="1"/>
         </color>
         <color priority="1" name="White for Course Planning Symbols" c="0" m="0" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
@@ -26,21 +26,21 @@
             <cmyk method="custom"/>
             <rgb method="cmyk" r="0" g="0" b="0"/>
         </color>
-        <color priority="3" name="Blue for Point Symbols" c="1" m="0" y="0" k="0" opacity="1">
+        <color priority="3" name="Blue for Point Feature" c="1" m="0" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
                 <namedcolor>BLUE</namedcolor>
             </spotcolors>
             <cmyk method="custom"/>
             <rgb method="cmyk" r="0" g="1" b="1"/>
         </color>
-        <color priority="4" name="Brown for Point Symbols" c="0" m="0.56" y="1" k="0.18" opacity="1">
+        <color priority="4" name="Brown for Point Feature" c="0" m="0.56" y="1" k="0.18" opacity="1">
             <spotcolors>
                 <namedcolor>BROWN</namedcolor>
             </spotcolors>
             <cmyk method="custom"/>
             <rgb method="cmyk" r="0.82" g="0.361" b="0"/>
         </color>
-        <color priority="5" name="Green for Point Symbols" c="0.76" m="0" y="0.91" k="0" opacity="1">
+        <color priority="5" name="Green for Point Feature" c="0.76" m="0" y="0.91" k="0" opacity="1">
             <spotcolors knockout="true">
                 <namedcolor>GREEN</namedcolor>
             </spotcolors>
@@ -54,19 +54,19 @@
             <cmyk method="spotcolor"/>
             <rgb method="spotcolor" r="1" g="1" b="1"/>
         </color>
-        <color priority="7" name="Purple under Black" c="0" m="1" y="0" k="0" opacity="1">
+        <color priority="7" name="Purple under Black" c="0.35" m="0.85" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="1" spotcolor="0"/>
             </spotcolors>
             <cmyk method="spotcolor"/>
-            <rgb method="cmyk" r="1" g="0" b="1"/>
+            <rgb method="cmyk" r="0.65" g="0.15" b="1"/>
         </color>
-        <color priority="8" name="Purple 50%" c="0" m="0.5" y="0" k="0" opacity="1">
+        <color priority="8" name="Purple 50%" c="0.175" m="0.425" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="0.5" spotcolor="0"/>
             </spotcolors>
             <cmyk method="spotcolor"/>
-            <rgb method="spotcolor" r="1" g="0.5" b="1"/>
+            <rgb method="spotcolor" r="0.825" g="0.575" b="1"/>
         </color>
         <color priority="9" name="Black 50% - Tramway" c="0" m="0" y="0" k="0.5" opacity="1">
             <spotcolors knockout="true">
@@ -82,7 +82,7 @@
             <cmyk method="spotcolor"/>
             <rgb method="spotcolor" r="0" g="1" b="1"/>
         </color>
-        <color priority="11" name="Blue 100% for Liner Symbols" c="1" m="0" y="0" k="0" opacity="1">
+        <color priority="11" name="Blue 100% for Liner Feature" c="1" m="0" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="1" spotcolor="3"/>
             </spotcolors>
@@ -96,7 +96,7 @@
             <cmyk method="custom"/>
             <rgb method="cmyk" r="0" g="0" b="0"/>
         </color>
-        <color priority="13" name="Brown 100% for Liner Symbols" c="0" m="0.56" y="1" k="0.18" opacity="1">
+        <color priority="13" name="Brown 100% for Liner Feature" c="0" m="0.56" y="1" k="0.18" opacity="1">
             <spotcolors>
                 <component factor="1" spotcolor="4"/>
             </spotcolors>
@@ -117,21 +117,21 @@
             <cmyk method="spotcolor"/>
             <rgb method="spotcolor" r="0.8" g="0.8" b="0.8"/>
         </color>
-        <color priority="16" name="Blue 100% for Area Symbols" c="1" m="0" y="0" k="0" opacity="1">
+        <color priority="16" name="Blue 100% for Area Feature" c="1" m="0" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="1" spotcolor="3"/>
             </spotcolors>
             <cmyk method="spotcolor"/>
             <rgb method="cmyk" r="0" g="1" b="1"/>
         </color>
-        <color priority="17" name="Blue 70%  for Area Symbols" c="0.7" m="0" y="0" k="0" opacity="1">
+        <color priority="17" name="Blue 70%  for Area Feature" c="0.7" m="0" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="0.7" spotcolor="3"/>
             </spotcolors>
             <cmyk method="spotcolor"/>
             <rgb method="spotcolor" r="0.3" g="1" b="1"/>
         </color>
-        <color priority="18" name="Blue 30% for Area Symbols" c="0.3" m="0" y="0" k="0" opacity="1">
+        <color priority="18" name="Blue 30% for Area Feature" c="0.3" m="0" y="0" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="0.3" spotcolor="3"/>
             </spotcolors>
@@ -181,21 +181,21 @@
             <cmyk method="custom"/>
             <rgb method="spotcolor" r="1" g="1" b="1"/>
         </color>
-        <color priority="25" name="Green 100% for Area Symbols" c="0.76" m="0" y="0.91" k="0" opacity="1">
+        <color priority="25" name="Green 100% for Area Feature" c="0.76" m="0" y="0.91" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="1" spotcolor="5"/>
             </spotcolors>
             <cmyk method="spotcolor"/>
             <rgb method="spotcolor" r="0.24" g="1" b="0.09"/>
         </color>
-        <color priority="26" name="Green 60% for Area Symbols" c="0.456" m="0" y="0.546" k="0" opacity="1">
+        <color priority="26" name="Green 60% for Area Feature" c="0.456" m="0" y="0.546" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="0.6" spotcolor="5"/>
             </spotcolors>
             <cmyk method="spotcolor"/>
             <rgb method="spotcolor" r="0.544" g="1" b="0.454"/>
         </color>
-        <color priority="27" name="Green 30% for Area Symbols" c="0.228" m="0" y="0.273" k="0" opacity="1">
+        <color priority="27" name="Green 30% for Area Feature" c="0.228" m="0" y="0.273" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="0.3" spotcolor="5"/>
             </spotcolors>
@@ -237,14 +237,14 @@
             <cmyk method="spotcolor"/>
             <rgb method="spotcolor" r="0" g="0" b="0"/>
         </color>
-        <color priority="33" name="Yellow 100% for Area Symbols" c="0" m="0.27" y="0.79" k="0" opacity="1">
+        <color priority="33" name="Yellow 100% for Area Feature" c="0" m="0.27" y="0.79" k="0" opacity="1">
             <spotcolors knockout="true">
                 <namedcolor>YELLOW</namedcolor>
             </spotcolors>
             <cmyk method="custom"/>
             <rgb method="cmyk" r="1" g="0.73" b="0.21"/>
         </color>
-        <color priority="34" name="Yellow 50% for Area Symbols" c="0" m="0.135" y="0.395" k="0" opacity="1">
+        <color priority="34" name="Yellow 50% for Area Feature" c="0" m="0.135" y="0.395" k="0" opacity="1">
             <spotcolors knockout="true">
                 <component factor="0.5" spotcolor="33"/>
             </spotcolors>
@@ -321,12 +321,7 @@ neighbouring features must be represented on the map as accurately as possible. 
                 <description>A steep earth bank is an abrupt change in ground level which can be clearly distinguished from its surroundings, e.g. gravel or sand pits, roads and railway cuttings or embankments. The tags should show the full extent of the slope, but may be omitted if two banks are close together. Impassable banks shall be
 drawn with the symbol Impassable cliff (201). The line width of very high earth banks may be 0.37 mm.
 </description>
-                <line_symbol color="13" line_width="270" minimum_length="325" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="750" end_length="380" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
+                <line_symbol color="13" line_width="270" minimum_length="325" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="750" end_length="100" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
                             <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
@@ -347,27 +342,12 @@ drawn with the symbol Impassable cliff (201). The line width of very high earth 
                             </point_symbol>
                         </symbol>
                     </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                 </line_symbol>
             </symbol>
             <symbol type="2" id="7" code="104.2" name="Earth bank, very high">
                 <description>A steep earth bank is an abrupt change in ground level which can be clearly distinguished from its surroundings, e.g. gravel or sand pits, roads and railway cuttings or embankments. The tags should show the full extent of the slope, but may be omitted if two banks are close together. Impassable banks shall be
 drawn with the symbol Impassable cliff (201). The line width of very high earth banks may be 0.37 mm.</description>
-                <line_symbol color="13" line_width="370" minimum_length="325" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="750" end_length="380" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
+                <line_symbol color="13" line_width="370" minimum_length="325" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="750" end_length="100" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
                             <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
@@ -388,16 +368,6 @@ drawn with the symbol Impassable cliff (201). The line width of very high earth 
                             </point_symbol>
                         </symbol>
                     </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                 </line_symbol>
             </symbol>
             <symbol type="2" id="8" code="104.3" name="Earth bank, tag line">
@@ -632,53 +602,11 @@ Minimum height: 1.5 m.</description>
             </symbol>
             <symbol type="2" id="21" code="201.2" name="Impassable cliff, no tags">
                 <description>For vertical rock faces the tags may be omitted if space is short, e.g. narrow passages between cliffs (the passage should be drawn with a width of at least 0.4 mm).</description>
-                <line_symbol color="2" line_width="500" minimum_length="900" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
-                </line_symbol>
+                <line_symbol color="2" line_width="500" minimum_length="900" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
             <symbol type="2" id="22" code="201.2.1" name="Impassable cliff, tag line">
                 <description>Use this symbol to display the full extent of a wide cliff.</description>
-                <line_symbol color="2" line_width="180" minimum_length="500" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
-                </line_symbol>
+                <line_symbol color="2" line_width="180" minimum_length="500" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
             <symbol type="1" id="23" code="201.3" name="Impassable cliff, no tags, minimum size">
                 <description>For vertical rock faces the tags may be omitted if space is short, e.g. narrow passages between cliffs (the passage should be drawn with a width of at least 0.4 mm).</description>
@@ -778,28 +706,7 @@ Minimum height: 0.6 m.</description>
             </symbol>
             <symbol type="2" id="26" code="202.2" name="Passable rock face, no tags">
                 <description>Should be used if the direction of fall of the rock face is apparent from the contours and the legibility is good.</description>
-                <line_symbol color="2" line_width="250" minimum_length="900" join_style="1" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
-                </line_symbol>
+                <line_symbol color="2" line_width="250" minimum_length="900" join_style="1" cap_style="1" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
             <symbol type="1" id="27" code="202.3" name="Passable rock face, no tags, minimum size">
                 <description>Should be used if the direction of fall of the rock face is apparent from the contours and the legibility is good.</description>
@@ -1001,28 +908,7 @@ An area of rock covered with grass, moss or other low vegetation shall be repres
             </symbol>
             <symbol type="2" id="41" code="301.0.1" name=" Uncrossable body of water, bank line">
                 <description>The bordering black line indicates that the feature cannot or shall not be crossed.</description>
-                <line_symbol color="2" line_width="180" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
-                </line_symbol>
+                <line_symbol color="2" line_width="180" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
             <symbol type="16" id="42" code="301.1" name="Uncrossable body of water, with bank line, 100% blue">
                 <description>An area of deep water such as a lake, pond, river or fountain. The dark blue colour and the bordering black line indicate that the feature shall not be crossed.</description>
@@ -1642,8 +1528,8 @@ The definition of the symbol must be given on the map.</description>
                         </symbol>
                         <object type="1">
                             <coords count="2">
-                                <coord x="-600" y="-600"/>
-                                <coord x="600" y="600"/>
+                                <coord x="-512" y="-512"/>
+                                <coord x="512" y="512"/>
                             </coords>
                             <pattern rotation="0">
                                 <coord x="0" y="0"/>
@@ -1656,36 +1542,36 @@ The definition of the symbol must be given on the map.</description>
                         </symbol>
                         <object type="1">
                             <coords count="2">
+                                <coord x="-512" y="512"/>
+                                <coord x="512" y="-512"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="6" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
+                                <coord x="-600" y="-600"/>
+                                <coord x="600" y="600"/>
+                            </coords>
+                            <pattern rotation="0">
+                                <coord x="0" y="0"/>
+                            </pattern>
+                        </object>
+                    </element>
+                    <element>
+                        <symbol type="2" code="">
+                            <line_symbol color="6" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
+                        </symbol>
+                        <object type="1">
+                            <coords count="2">
                                 <coord x="-600" y="600"/>
                                 <coord x="600" y="-600"/>
-                            </coords>
-                            <pattern rotation="0">
-                                <coord x="0" y="0"/>
-                            </pattern>
-                        </object>
-                    </element>
-                    <element>
-                        <symbol type="2" code="">
-                            <line_symbol color="6" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
-                        </symbol>
-                        <object type="1">
-                            <coords count="2">
-                                <coord x="-688" y="-688"/>
-                                <coord x="688" y="688"/>
-                            </coords>
-                            <pattern rotation="0">
-                                <coord x="0" y="0"/>
-                            </pattern>
-                        </object>
-                    </element>
-                    <element>
-                        <symbol type="2" code="">
-                            <line_symbol color="6" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
-                        </symbol>
-                        <object type="1">
-                            <coords count="2">
-                                <coord x="-688" y="688"/>
-                                <coord x="688" y="-688"/>
                             </coords>
                             <pattern rotation="0">
                                 <coord x="0" y="0"/>
@@ -1752,26 +1638,6 @@ of vehicles or pedestrians.
 
 Colour: brown 30% for light traffic of vehicles or pedestrians, 50% for heavy traffic of vehicles or pedestrians, black; the colour and the line width shall be the same as for symbol Unpaved footpath or track (505).</description>
                 <line_symbol color="20" line_width="350" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                     <borders>
                         <border color="21" width="100" shift="50"/>
                     </borders>
@@ -1785,26 +1651,6 @@ of vehicles or pedestrians.
 
 Colour: brown 30% for light traffic of vehicles or pedestrians, 50% for heavy traffic of vehicles or pedestrians, black; the colour and the line width shall be the same as for symbol Unpaved footpath or track (505).</description>
                 <line_symbol color="20" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                     <borders>
                         <border color="21" width="100" shift="50"/>
                     </borders>
@@ -1818,26 +1664,6 @@ of vehicles or pedestrians.
 
 Colour: brown 30% for light traffic of vehicles or pedestrians, 50% for heavy traffic of vehicles or pedestrians, black; the colour and the line width shall be the same as for symbol Unpaved footpath or track (505).</description>
                 <line_symbol color="20" line_width="750" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                     <borders>
                         <border color="21" width="100" shift="50"/>
                     </borders>
@@ -1851,26 +1677,6 @@ of vehicles or pedestrians.
 
 Colour: brown 30% for light traffic of vehicles or pedestrians, 50% for heavy traffic of vehicles or pedestrians, black; the colour and the line width shall be the same as for symbol Unpaved footpath or track (505).</description>
                 <line_symbol color="20" line_width="1000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                     <borders>
                         <border color="21" width="100" shift="50"/>
                     </borders>
@@ -1913,53 +1719,12 @@ Colour: brown 30% or 50%, white (If upper level is covered by other surface, tha
             </symbol>
             <symbol type="2" id="103" code="505.0.1" name=" Step or edge of unpaved area">
                 <description>An edge of a unpaved area.</description>
-                <line_symbol color="2" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
-                </line_symbol>
+                <line_symbol color="2" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
             <symbol type="2" id="104" code="505.1" name="Unpaved footpath or track, minimum width">
                 <description>An unpaved footpath or rough vehicle track is a way for passing mainly by foot, without a smooth, hard surface. The colour and the line width shall be the same as for the symbols Paved area (501) and Step or edge of paved area (501.1).
 </description>
                 <line_symbol color="20" line_width="350" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                     <borders>
                         <border color="21" width="100" shift="50" dashed="true" dash_length="2000" break_length="250"/>
                     </borders>
@@ -1968,26 +1733,6 @@ Colour: brown 30% or 50%, white (If upper level is covered by other surface, tha
             <symbol type="2" id="105" code="505.2" name="Unpaved footpath or track, 0.5 mm width, footprint: 2 m">
                 <description>An unpaved footpath or rough vehicle track is a way for passing mainly by foot, without a smooth, hard surface. The colour and the line width shall be the same as for the symbols Paved area (501) and Step or edge of paved area (501.1).</description>
                 <line_symbol color="20" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="2000" break_length="250" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                     <borders>
                         <border color="21" width="100" shift="50" dashed="true" dash_length="2000" break_length="250"/>
                     </borders>
@@ -2162,11 +1907,6 @@ The bars indicate the exact location of the pylons. If a section of a power line
                             </point_symbol>
                         </symbol>
                     </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
                     <end_symbol>
                         <symbol type="1" code="" name="End symbol">
                             <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
@@ -2187,11 +1927,6 @@ The bars indicate the exact location of the pylons. If a section of a power line
                             </point_symbol>
                         </symbol>
                     </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                 </line_symbol>
             </symbol>
             <symbol type="2" id="115" code="512.1" name="Bridge, minimum width">
@@ -2233,11 +1968,6 @@ The bars indicate the exact location of the pylons. If a section of a power line
                             </point_symbol>
                         </symbol>
                     </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
                     <end_symbol>
                         <symbol type="1" code="" name="End symbol">
                             <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
@@ -2272,11 +2002,6 @@ The bars indicate the exact location of the pylons. If a section of a power line
                             </point_symbol>
                         </symbol>
                     </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                     <borders>
                         <border color="2" width="400" shift="200"/>
                     </borders>
@@ -2531,28 +2256,7 @@ be 0.40 mm. Boundaries in touching buildings shall not be represented.</descript
             </symbol>
             <symbol type="2" id="127" code="521.0.2" name="Building, border line">
                 <description>Do not use this symbol on its own!</description>
-                <line_symbol color="12" line_width="140" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
-                </line_symbol>
+                <line_symbol color="12" line_width="140" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
             <symbol type="16" id="128" code="522" name="Canopy">
                 <description>A canopy is a building construction (with a roof), normally supported by pillars, poles or walls, such as passages, gangways, courts, bus stops, gas stations or garages.
@@ -2593,28 +2297,7 @@ Pillars smaller than 1 m × 1 m are generally not represented.</description>
             </symbol>
             <symbol type="2" id="131" code="522.0.2" name="Canopy, border line">
                 <description>Do not use this symbol on its own!</description>
-                <line_symbol color="2" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
-                    <mid_symbol>
-                        <symbol type="1" code="" name="Mid symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
-                </line_symbol>
+                <line_symbol color="2" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
             <symbol type="1" id="132" code="524" name="High tower">
                 <description>A high tower or large pylon. Very large towers shall be represented in plan shape with the symbol Building (521). The symbol is orientated to north.</description>
@@ -2797,8 +2480,8 @@ The definition of the symbol must be given on the map.</description>
                         </symbol>
                         <object type="1">
                             <coords count="2">
-                                <coord x="-600" y="-600"/>
-                                <coord x="600" y="600"/>
+                                <coord x="-522" y="-522"/>
+                                <coord x="522" y="522"/>
                             </coords>
                             <pattern rotation="0">
                                 <coord x="0" y="0"/>
@@ -2811,8 +2494,8 @@ The definition of the symbol must be given on the map.</description>
                         </symbol>
                         <object type="1">
                             <coords count="2">
-                                <coord x="-600" y="600"/>
-                                <coord x="600" y="-600"/>
+                                <coord x="-522" y="522"/>
+                                <coord x="522" y="-522"/>
                             </coords>
                             <pattern rotation="0">
                                 <coord x="0" y="0"/>
@@ -7766,7 +7449,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
         </templates>
         <view>
             <grid color="#646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="500" v_spacing="500" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="4" position_x="16128" position_y="-5704" overprinting_simulation_enabled="true">
+            <map_view zoom="5.65685" position_x="18267" position_y="-2934" overprinting_simulation_enabled="true">
                 <map opacity="1" visible="true"/>
                 <templates count="0"/>
             </map_view>
