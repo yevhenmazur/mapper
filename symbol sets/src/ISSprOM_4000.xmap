@@ -2506,7 +2506,12 @@ The definition of the symbol must be given on the map.</description>
             </symbol>
             <symbol type="2" id="140" code="532.1" name="Stairway">
                 <description>Steps of a stairway shall be represented in a generalized manner.</description>
-                <line_symbol color="20" line_width="400" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="420" end_length="35" show_at_least_one_symbol="true" minimum_mid_symbol_count="3" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                <line_symbol color="20" line_width="400" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="500" end_length="50" show_at_least_one_symbol="true" minimum_mid_symbol_count="3" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <start_symbol>
+                        <symbol type="1" code="" name="Start symbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </start_symbol>
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
                             <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
@@ -2527,14 +2532,29 @@ The definition of the symbol must be given on the map.</description>
                             </point_symbol>
                         </symbol>
                     </mid_symbol>
+                    <end_symbol>
+                        <symbol type="1" code="" name="End symbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </end_symbol>
+                    <dash_symbol>
+                        <symbol type="1" code="" name="Dash symbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </dash_symbol>
                     <borders>
-                        <border color="2" width="100" shift="0"/>
+                        <border color="2" width="100" shift="50"/>
                     </borders>
                 </line_symbol>
             </symbol>
             <symbol type="2" id="141" code="532.2" name="Stairway, wide">
                 <description>Steps of a stairway shall be represented in a generalized manner.</description>
-                <line_symbol color="20" line_width="880" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="420" end_length="35" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                <line_symbol color="20" line_width="880" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="500" end_length="50" show_at_least_one_symbol="true" minimum_mid_symbol_count="3" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
+                    <start_symbol>
+                        <symbol type="1" code="" name="Start symbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </start_symbol>
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
                             <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
@@ -2555,6 +2575,16 @@ The definition of the symbol must be given on the map.</description>
                             </point_symbol>
                         </symbol>
                     </mid_symbol>
+                    <end_symbol>
+                        <symbol type="1" code="" name="End symbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </end_symbol>
+                    <dash_symbol>
+                        <symbol type="1" code="" name="Dash symbol">
+                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
+                        </symbol>
+                    </dash_symbol>
                     <borders>
                         <border color="2" width="100" shift="0"/>
                     </borders>
@@ -7449,7 +7479,7 @@ The purple line will extend a bit into the finish symbol. This is a shortcoming 
         </templates>
         <view>
             <grid color="#646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="500" v_spacing="500" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="5.65685" position_x="18267" position_y="-2934" overprinting_simulation_enabled="true">
+            <map_view zoom="7.99999" position_x="21390" position_y="-3887" overprinting_simulation_enabled="true">
                 <map opacity="1" visible="true"/>
                 <templates count="0"/>
             </map_view>
